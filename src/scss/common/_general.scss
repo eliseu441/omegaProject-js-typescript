@@ -332,8 +332,9 @@ hr {
 .cs-text_btn {
   display: inline-flex;
   align-items: center;
-  font-weight: 600;
+  font-weight: bolder;
   color: $white;
+  font-size: 2rem;
   cursor: pointer;
   svg {
     margin-left: 15px;
@@ -1677,4 +1678,97 @@ label {
   .cs-masonry_4_col {
     column-count: 1;
   }
+}
+
+.card-description{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  height: 100%;
+}
+.containerCard{
+  
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns:repeat(auto-fill, minmax(400px, 4fr));
+  gap: 15px;
+  padding: 100px 248px;
+}
+.card{
+    
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 300px;
+  height: 100%;
+  box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.card:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+.buttonPrice{
+  border: none;
+  color: #fff;
+  background: #373737;
+  border-radius: 5px;
+  width: 100%;
+  height: 26px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.conteiner_header{
+  margin-top: 100px;
+  margin-bottom: -200px;
+  z-index: 999;
+  position: relative;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  transform: translateX(100px);
+  }
+  100% {
+      opacity: 1;
+  transform: translateX(0px);
+  }
+}
+
+.shoppingCartOpen{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  width: 486px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: rgb(39, 39, 39);
+  border: none;
+  box-shadow: -5px 0 5px 0 rgba(0, 0, 0, 0.11);
+  z-index: 1;
+  animation: fadeIn 0.5s ease 0s 1 normal forwards;
+}
+.containerShoppingCart{
+  padding: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  background-color: rgb(216, 59, 20);
+}
+.containerShoppingCart:hover{
+  transform: scale(1.1);
+  transition: all 0.3s;
 }

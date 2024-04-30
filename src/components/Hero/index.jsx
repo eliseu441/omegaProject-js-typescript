@@ -34,6 +34,9 @@ export default function Hero({
           
           <Div className="cs-hero_info">
             
+          <Div className="mt-2">
+              <Button btnLink={btnLink} btnText={btnText} />
+            </Div>
           </Div>
           
         </Div>

@@ -51,8 +51,8 @@ export default function Home() {
       <Hero
         title="Marca de bodybuilders<br/> para bodybuilders."
         subtitle="drops unicos pra cada coleção."
-        btnText="Get a Quote"
-        btnLink="/contact"
+        btnText="Ir para a loja"
+        btnLink="/about"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
@@ -106,7 +106,7 @@ export default function Home() {
                     icon={<h3 style={{margin: 'auto'}}>1</h3>}
                     
                   >
-                    <h3 className="vertical-timeline-element-title">Estaparia</h3>
+                    <h3 className="vertical-timeline-element-title">Estampa</h3>
                     <p>
                       Nossa equipe trabalha com as mais altas qualidades de impressão pra que as cores da camisa permaneçam vivas no uso.
                     </p>
@@ -121,7 +121,7 @@ export default function Home() {
                   >
                     <h3 className="vertical-timeline-element-title">Tecido</h3>
                     <p>
-                      Todas as camisas são feitas em 100% algodão para se adequar a qualquer ripo de ocasião, tanto treino quanto eventos sociais.
+                      Todas as camisas são feitas em 100% algodão para se adequar a qualquer tipo de ocasião, tanto treino quanto eventos sociais.
                     </p>
                   </VerticalTimelineElement><VerticalTimelineElement
                     className="vertical-timeline-element--teste"

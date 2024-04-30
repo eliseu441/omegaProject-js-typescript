@@ -8,26 +8,26 @@ export default function PortfolioSlider() {
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/carousel_nick.png'
+      href:'/about',
+      src:'/images/camisa branca.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_2.jpeg'
+      href:'/about',
+      src:'/images/camisa preta.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_0.jpg'
+      href:'/about',
+      src:'/images/camisa branca.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_3.jpeg'
+      href:'/about',
+      src:'/images/camisa preta.jpg'
     }
   ]
   
