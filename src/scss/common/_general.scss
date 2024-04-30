@@ -1726,9 +1726,6 @@ label {
   font-weight: bold;
 }
 .conteiner_header{
-  margin-top: 100px;
-  margin-bottom: -200px;
-  margin-right: -20px;
   z-index: 999;
   position: relative;
 }
@@ -1767,6 +1764,7 @@ label {
   display: flex;
   position: fixed;
   background-color: rgb(216, 59, 20);
+  margin-top: 100px;
 }
 .containerShoppingCart:hover{
   transform: scale(1.1);
