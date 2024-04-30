@@ -37,7 +37,7 @@
 
 .cs-site_header.cs-style1 {
   &.cs-sticky-active {
-    background-color: $white;
+    background-color: white;
     box-shadow: 0 10px 10px -10px rgba(33, 43, 53, 0.1);
   }
 
@@ -51,7 +51,7 @@
     cursor: pointer;
     border: 2px solid currentColor;
     border-radius: 50%;
-    color: $white;
+    color: white;
     .cs-icon_btn_in {
       width: 18px;
       height: 16px;
@@ -145,7 +145,7 @@
 
   .cs-nav .cs-nav_list > li.current-menu-item > a:before {
     bottom: -4px;
-    background-color: $white;
+    background-color: white;
   }
 }
 .cs-side_header {
@@ -159,7 +159,7 @@
   visibility: hidden;
   transition: all 0.4s ease;
   .cs-side_header_overlay {
-    background-color: rgba($black, 0.5);
+    background-color: rgba(black, 0.5);
     height: inherit;
     width: inherit;
     left: inherit;
@@ -261,7 +261,7 @@
     transform: rotate(45deg);
   }
   &:hover {
-    color: $accent;
+    color: white;
     transform: scale(1.05);
   }
 }
@@ -355,7 +355,7 @@
     height: 100%;
     font-size: 15px;
     line-height: 1.6em;
-    color: $white;
+    color: white;
 
     .cs-nav_list {
       display: flex !important;
@@ -421,7 +421,7 @@
         background-color: #181818;
         position: absolute;
         box-shadow: 0px 1px 2px 0px rgba(2, 0, 181, 0.1);
-        border-top: 2px solid $accent;
+        border-top: 2px solid ;
         padding: 10px 0;
         z-index: 100;
         opacity: 0;
@@ -457,7 +457,7 @@
         }
       }
       .active {
-        color: $accent;
+        color: white;
       }
     }
   }
@@ -480,11 +480,11 @@
         padding: 10px 0;
 
         &:not(:last-child) {
-          border-right: 1px solid $border;
+          border-right: 1px solid white;
         }
 
         > a {
-          color: $primary;
+          color: white;
           font-weight: 600;
 
           &:hover {
@@ -549,7 +549,7 @@
       transform: translate(-50%, -50%);
       height: 2px;
       width: 10px;
-      background-color: $secondary;
+      background-color: white;
       transition: all 0.3s ease;
     }
 

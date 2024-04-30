@@ -16,6 +16,7 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+    "react-vertical-timeline-component": "^3.6.0",
     "react-water-wave": "^2.0.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^8.4.5",
@@ -47,6 +48,6 @@
   },
   "devDependencies": {
     "@iconify/react": "^4.0.0",
-    "node-sass": "^8.0"
+    "node-sass": "^9.0"
   }
 }

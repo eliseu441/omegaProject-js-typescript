@@ -15,6 +15,8 @@ import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 export default function Home() {
   pageTitle('Home');
@@ -34,8 +36,8 @@ export default function Home() {
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Com apenas isso voce já pode contratar nossos serviços',
-      factNumber: 'R$399,00',
+      title: 'Em até 12x no cartao',
+      factNumber: 'R$150,00',
     },
   ];
 
@@ -47,8 +49,8 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Tranforme ideias <br/> em sites de impacto."
-        subtitle="Chega de sites pouco detalhados e programação low code pro seu negocio, nosso time cria um site profissional do 0 pra você."
+        title="Marca de bodybuilders<br/> para bodybuilders."
+        subtitle="drops unicos pra cada coleção."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -57,86 +59,96 @@ export default function Home() {
         bgImageUrl="/images/bg_home.jpg"
       />
       {/* End Hero Section */}
-
-      {/* Start FunFact Section */}
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Acessivel pra todo tipo de nogócio"
+          title="material 100% algodao a partir de:"
           data={funfaceData}
         />
       </div>
       {/* End FunFact Section */}
       {/* Start Portfolio Section */}
-      <Spacing lg="150" md="50" />
+      <Spacing lg="50" md="50" />
+      
+      {/* End Portfolio Section */}
+      {/* Start Service Section */}
+      <Spacing lg="0" md="80" />
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Qualidade e responsividade"
-            subtitle="Ultimos projetos"
+            title="qualidade e preço justo"
+            subtitle="Ultimos drops"
             variant="cs-style1 text-center"
           />
-          <Spacing lg="90" md="45" />
+          <Spacing lg="0" md="45" />
+          <PortfolioSlider />
         </Div>
-        <PortfolioSlider />
       </Div>
-      {/* End Portfolio Section */}
-      {/* Start Service Section */}
-      <Spacing lg="150" md="80" />
+      {/* Start FunFact Section */}
       <Div id="service">
         <Div className="container">
           <Div className="row">
             <Div className="col-xl-4">
               <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
-                btnText="See All Services"
-                btnLink="/service"
+                title="Qual o nosso diferencial?"
+                subtitle="Entenda o processo"
               />
               <Spacing lg="90" md="45" />
             </Div>
             <Div className="col-xl-8">
               <Div className="row">
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="UI/UX design"
-                    link="/service/service-details"
-                    src="/images/service_1.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="React.js Development"
-                    link="/service/service-details"
-                    src="/images/service_2.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="Digital Marketing"
-                    link="/service/service-details"
-                    src="/images/service_3.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="Technology"
-                    link="/service/service-details"
-                    src="/images/service_4.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
+                <VerticalTimeline>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--teste"
+                    contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
+                    iconStyle={{ background: '#FF4A17', color: '#FF0000', display:'flex' }}
+                    icon={<h3 style={{margin: 'auto'}}>1</h3>}
+                    
+                  >
+                    <h3 className="vertical-timeline-element-title">Estaparia</h3>
+                    <p>
+                      Nossa equipe trabalha com as mais altas qualidades de impressão pra que as cores da camisa permaneçam vivas no uso.
+                    </p>
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--teste"
+                    contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
+                    iconStyle={{ background: '#FF4A17', color: '#FF0000', display:'flex' }}
+                    icon={<h3 style={{margin: 'auto'}}>2</h3>}
+                    
+                  >
+                    <h3 className="vertical-timeline-element-title">Tecido</h3>
+                    <p>
+                      Todas as camisas são feitas em 100% algodão para se adequar a qualquer ripo de ocasião, tanto treino quanto eventos sociais.
+                    </p>
+                  </VerticalTimelineElement><VerticalTimelineElement
+                    className="vertical-timeline-element--teste"
+                    contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
+                    iconStyle={{ background: '#FF4A17', color: '#FF0000', display:'flex' }}
+                    icon={<h3 style={{margin: 'auto'}}>3</h3>}
+                    
+                  >
+                    <h3 className="vertical-timeline-element-title">Exclusividade</h3>
+                    <p>
+                      A marca trabalha com drops unicos, portanto após uma coleção ninguem tera a possibilidade de comprar a mesma camisa que a sua.
+                    </p>
+                  </VerticalTimelineElement><VerticalTimelineElement
+                    className="vertical-timeline-element--teste"
+                    contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
+                    iconStyle={{ background: '#FF4A17', color: '#FF0000', display:'flex' }}
+                    icon={<h3 style={{margin: 'auto'}}>4</h3>}
+                    
+                  >
+                    <h3 className="vertical-timeline-element-title">Tempo de entrega</h3>
+                    <p>
+                      O prazo de entrada no envio é de no maximo 3 dias, a partir disso voce já tera o seu rastreamento.
+                    </p>
+                  </VerticalTimelineElement>
+                </VerticalTimeline>
               </Div>
             </Div>
           </Div>
@@ -147,111 +159,6 @@ export default function Home() {
 
 
       {/* Start Awards Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_2">
-        <Div className="cs-shape_2">
-          <Div />
-        </Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="We get multiple awards"
-                subtitle="Our Awards"
-                variant="cs-style1"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <TimelineSlider />
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Awards Section */}
-
-      {/* Start Video Block Section */}
-      <Spacing lg="130" md="70" />
-      <Div className="container">
-        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
-        </h2>
-        <Spacing lg="70" md="70" />
-        <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
-        />
-      </Div>
-      {/* End Video Block Section */}
-
-      {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
-        <Spacing lg="85" md="45" />
-        <TeamSlider />
-      </Div>
-      <Spacing lg="150" md="80" />
-      {/* End Team Section */}
-
-      {/* Start Testimonial Section */}
-      <TestimonialSlider />
-      {/* End Testimonial Section */}
-
-      {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
-        <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Explore recent publication"
-                subtitle="Our Blog"
-                btnText="View More Blog"
-                btnLink="/blog"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <Div className="cs-half_of_full_width">
-                <PostSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Blog Section */}
-
-      {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
-      <Spacing lg="105" md="70" />
-      {/* End MovingText Section */}
-
-      {/* Start LogoList Section */}
-      <Div className="container">
-        <LogoList />
-      </Div>
-      <Spacing lg="150" md="80" />
-      {/* End LogoList Section */}
-
-      {/* Start CTA Section */}
-      <Div className="container">
-        <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
-        />
-      </Div>
-      {/* End CTA Section */}
     </>
   );
 }

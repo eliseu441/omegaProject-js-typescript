@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <>
       <PageHeading
-        title="Contact Us"
+        title="Contato"
         bgSrc="/images/contact_hero_bg.jpeg"
         pageLinkText="Contact"
       />
@@ -24,7 +24,7 @@ export default function ContactPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title="Do you have a project <br/>in your mind?"
+              title="Alguma duvida?"
               subtitle="Getting Touch"
             />
             <Spacing lg="55" md="30" />

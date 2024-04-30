@@ -61,14 +61,14 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title='Contact Us'/>
+                <ContactInfoWidget title='Contato'/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <Newsletter 
-                  title='Subscribe' 
-                  subtitle='At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit.' 
+                  title='Seu E-mail' 
+                  subtitle='todos direitos reservados.' 
                   placeholder='example@gmail.com'
                 />
               </Div>
