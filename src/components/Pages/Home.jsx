@@ -43,7 +43,7 @@ links: 'https://www.linkedin.com/in/eliseu-caetano-da-silva-68a272186/',
         title="Marca de bodybuilders<br/> para bodybuilders."
         subtitle="drops unicos pra cada coleção."
         btnText="Ir para a loja"
-        btnLink="/about"
+        btnLink="/loja"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}

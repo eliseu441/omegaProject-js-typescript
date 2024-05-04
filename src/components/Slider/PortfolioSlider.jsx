@@ -8,25 +8,25 @@ export default function PortfolioSlider() {
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/about',
+      href:'/loja',
       src:'/images/camisa branca.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/about',
+      href:'/loja',
       src:'/images/camisa preta.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/about',
+      href:'/loja',
       src:'/images/camisa branca.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
-      href:'/about',
+      href:'/loja',
       src:'/images/camisa preta.jpg'
     }
   ]
