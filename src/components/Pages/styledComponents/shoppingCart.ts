@@ -111,6 +111,7 @@ export const ButtonClose = styled.button`
 `;
 
 export const ContainerCardItens = styled.li`
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -123,8 +124,8 @@ export const ContainerCardItens = styled.li`
 
 export const ButtonCloseProduct = styled.button`
   position: relative;
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   top: -71px;
   right: -366px;
   color: #fff;
