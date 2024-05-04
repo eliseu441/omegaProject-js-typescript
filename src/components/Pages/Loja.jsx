@@ -10,11 +10,11 @@ import ShoppingCart from "./Cart";
 
 
 
-export default function AboutPage() {
+export default function Loja() {
   const [isLoading, setIsLoading] = useState(false);
   const [cartItems, setCartItems] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
-  pageTitle('About');
+  pageTitle('Loja');
 
   const addToCart = (item) => {
     console.log(item)
