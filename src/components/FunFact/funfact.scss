@@ -28,14 +28,12 @@
   }
   .cs-funfact_right {
     flex: 1;
-    max-width: 500px;
     padding-left: 80px;
     position: relative;
     z-index: 2;
   }
   &.cs-type1 {
     margin-top: -130px;
-    width: fit-content;
   }
 }
 .cs-funfact_heading {
@@ -50,9 +48,11 @@
 }
 .cs-funfacts {
   display: grid;
+  grid-gap: 36px 40px;
+  grid-template-columns: repeat(2,1fr);
 }
 .cs-funfact.cs-style1 {
-  display: block;
+  display: flex;
   align-items: center;
   .cs-funfact_number {
     margin: 0 13px 0 0;

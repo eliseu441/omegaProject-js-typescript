@@ -18,7 +18,7 @@ export default function FunFact({variant, title, subtitle, data}) {
           <Div className="cs-funfact cs-style1" key={index}>
             <Div className="cs-funfact_number cs-primary_font cs-semi_bold cs-primary_color"><span/>{item.factNumber}</Div>
             <Div className="cs-funfact_text">
-              <span className="cs-accent_color">V</span>
+              <span className="cs-accent_color">+</span>
               <p>{item.title}</p>
             </Div>
           </Div>

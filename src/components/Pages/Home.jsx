@@ -1,19 +1,10 @@
 import React, { useEffect } from 'react';
-import Card from '../Card';
 import FunFact from '../FunFact';
 import Hero from '../Hero';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
-import Cta from '../Cta';
-import LogoList from '../LogoList';
-import MovingText from '../MovingText';
 import PortfolioSlider from '../Slider/PortfolioSlider';
-import PostSlider from '../Slider/PostSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
-import TeamSlider from '../Slider/TeamSlider';
-import VideoModal from '../VideoModal';
-import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -28,8 +19,8 @@ export default function Home() {
       links: '/',
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: 'Linkedin',
+links: 'https://www.linkedin.com/in/eliseu-caetano-da-silva-68a272186/',
     },
   ];
 

@@ -1,15 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { pageTitle } from '../../helper';
-import Cta from '../Cta';
-import FunFact from '../FunFact';
-import PageHeading from '../PageHeading';
-import Div from '../Div';
-import SectionHeading from '../SectionHeading';
-import TeamSlider from '../Slider/TeamSlider';
-import Spacing from '../Spacing';
 import imgTeste from './img/camisa.jpg'
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
-import { useQuery } from "react-query";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import getProducts from "./../../api/response.json";

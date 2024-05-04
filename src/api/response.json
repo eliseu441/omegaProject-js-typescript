@@ -3,9 +3,9 @@
     {
       "id": 8,
       "name": "Modelo camisa 1",
-      "brand": "HyperX",
+      "brand": "CAMISA",
       "description": "descricao primeira camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp",
+      "photo": "/",
       "price": "150.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -13,9 +13,9 @@
     {
       "id": 7,
       "name": "Modelo camisa 2",
-      "brand": "HyperX",
+      "brand": "CAMISA",
       "description": "descricao segunda camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperx-cloudrevolver.webp",
+      "photo": "/",
       "price": "180.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -23,9 +23,9 @@
     {
       "id": 6,
       "name": "Modelo camisa 3",
-      "brand": "Apple",
+      "brand": "CAMISA",
       "description": "descricao terceira camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/ipadair.webp",
+      "photo": "/",
       "price": "150.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -33,9 +33,9 @@
     {
       "id": 5,
       "name": "Modelo camisa 4",
-      "brand": "Apple",
+      "brand": "CAMISA",
       "description": "descricao quarta camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/applewatch-series7.webp",
+      "photo": "/",
       "price": "200.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -43,9 +43,9 @@
     {
       "id": 4,
       "name": "Modelo camisa 5",
-      "brand": "Apple",
+      "brand": "CAMISA",
       "description": "descricao quinta camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone12x64.webp",
+      "photo": "/",
       "price": "200.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -53,9 +53,9 @@
     {
       "id": 3,
       "name": "Modelo camisa 6",
-      "brand": "Apple",
+      "brand": "CAMISA",
       "description": "descricao sexta camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/macbookair.webp",
+      "photo": "/",
       "price": "200.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -63,9 +63,9 @@
     {
       "id": 2,
       "name": "Modelo camisa 7",
-      "brand": "Apple",
+      "brand": "CAMISA",
       "description": "descricao setima camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/airpods.webp",
+      "photo": "/",
       "price": "100.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
@@ -73,9 +73,9 @@
     {
       "id": 1,
       "name": "Modelo camisa 8",
-      "brand": "Apple",
+      "brand": "CAMISA",
       "description": "descricao oitava camisa.",
-      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone11x128.webp",
+      "photo": "/",
       "price": "150.00",
       "createdAt": "2023-10-30T16:25:01.093Z",
       "updatedAt": "2023-10-30T16:25:01.093Z"
