@@ -52,7 +52,7 @@
   grid-template-columns: repeat(2,1fr);
 }
 .cs-funfact.cs-style1 {
-  display: flex;
+  display: block;
   align-items: center;
   .cs-funfact_number {
     margin: 0 13px 0 0;
